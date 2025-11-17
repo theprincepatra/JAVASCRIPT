@@ -1,0 +1,11 @@
+#btn{
+    font-size: 20px;
+    border: none;
+    /* margin: 100px; */
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #c0c8c8;
+    color: #000;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
