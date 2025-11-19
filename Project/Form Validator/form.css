@@ -1,0 +1,35 @@
+*{
+   background-color: black;
+   color: aliceblue;
+}
+
+#form{
+   color: rgb(255, 255, 255);
+   border: 1px solid rgb(250, 248, 248);
+   max-width: 400px;
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+   padding: 10px;
+   border-radius: 5px;
+   line-height: 30px;
+   background-color: #b61818;
+   box-shadow: 6px 5px 25px rgb(255, 36, 36);
+}
+form h2{
+   margin-top: 1px;
+   margin-bottom: 10px;
+   margin-left: 1;
+   padding: 0px 0px;
+}
+
+.error {
+   color: red;
+   font-size: 0.875rem;
+   line-height: 20px;
+   margin-top: 0.25rem;
+}
+
+#button{
+   color: aliceblue;
+}
