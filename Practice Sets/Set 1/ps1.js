@@ -12,7 +12,7 @@
 // console.log(a)
 // a = 99
 // console.log(a)
-// Ans: {'name': "Prince", 'insta': '@theprincepatra'}
+// Ans: {'name': Prince, insta: @theprincepatra}
 //      error
 
 
@@ -22,5 +22,22 @@
 // console.log(a)
 // a['github'] = 'theprincepatra'
 // console.log(a)
-// Ans: {'name': "Prince", 'insta': '@theprincepatra'}
-//      {'name': "Prince", 'insta': '@theprincepatra', 'github': 'theprincepatra'}
+// Ans: {name: Prince, insta: @theprincepatra}
+//      {name: Prince, insta: @theprincepatra, github: theprincepatra}
+
+// 4) Create a object and check its type.
+
+// let obj = {'obj1': 1, 'obj2': 2, 'obj3': 3}
+// console.log(obj, typeof(obj))
+// Ans: {obj1: 1, obj2: 2, obj3: 3}, 'object'
+
+// 5) What is the output of the code:
+//      var a = 'hang'
+//      {
+//          var a = 'this'
+//          console.log(a)
+//      }
+//      console.log(a)
+
+// Ans: this
+//      this
